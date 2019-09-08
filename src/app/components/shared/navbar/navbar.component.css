@@ -1,0 +1,14 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  #web-title {
+    font-size: 4vw;
+    font-size-adjust: none;
+  }
+}
+h1 {
+  color: white;
+  font-size: 2vw;
+  font-weight: bolder;
+  margin: 0px 4px 0px 0px;
+  padding:0px;
+}
