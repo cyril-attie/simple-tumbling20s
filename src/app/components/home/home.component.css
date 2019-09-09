@@ -1,0 +1,12 @@
+/* #home-body {
+  background-image: url("../../../assets/img/tumbling20s1.png");
+
+ } */
+
+ div {
+   flex-flow: row wrap;
+ }
+
+ .card {
+   min-width:150px;
+ }

@@ -1,0 +1,11 @@
+app-share-links {
+  position: fixed;
+  top:100px;
+  left:0.5vw;
+}
+
+
+#read-place {
+  max-width: 700px;
+  margin: 30px auto;
+}

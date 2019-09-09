@@ -1,0 +1,17 @@
+.illustration {
+  width: 38.2%;
+  min-width: 140px;
+  margin:10px 0px;
+  display: table-row;
+  vertical-align: middle;
+}
+
+.float-r {
+  float: right;
+  margin-left: 5vw;
+}
+
+.float-l {
+  float: left;
+  margin-right: 15px;
+}
