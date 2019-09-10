@@ -12,3 +12,9 @@ h1 {
   margin: 0px 4px 0px 0px;
   padding:0px;
 }
+
+nav {
+  position:sticky;
+  top:0px;
+  z-index: 1;
+}

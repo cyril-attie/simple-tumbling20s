@@ -2,13 +2,13 @@
 
 <app-share-links></app-share-links>
 
-<div>
-  <div id="read-place" class="container">
-  <router-outlet></router-outlet>
+<div class="container">
+  <div class="row">
+    <div id="read-place" class="col9-sm">
+      <router-outlet></router-outlet>
+    </div>
+    <app-right-side-column class="col3-sm"></app-right-side-column>
+  </div>
 </div>
-<app-right-side-column></app-right-side-column>
-
-</div>
-
 
 <app-footer></app-footer>
