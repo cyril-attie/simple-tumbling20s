@@ -19,8 +19,8 @@ import { IntroductionComponent } from './components/introduction/introduction.co
 import { Tumbling20sComponent } from './components/tumbling20s/tumbling20s.component';
 import { BlockchainComponent } from './components/blockchain/blockchain.component';
 import { AboutComponent } from './components/about/about.component';
-import { ShareLinksComponent } from './components/shared/share-links/share-links.component';
 import { RightSideColumnComponent } from './components/shared/right-side-column/right-side-column.component';
+import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
 
 @NgModule({
   declarations: [
@@ -32,8 +32,8 @@ import { RightSideColumnComponent } from './components/shared/right-side-column/
     Tumbling20sComponent,
     BlockchainComponent,
     AboutComponent,
-    ShareLinksComponent,
-    RightSideColumnComponent
+    RightSideColumnComponent,
+    DisclaimerComponent
   ],
   imports: [
     BrowserModule,

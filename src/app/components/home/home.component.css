@@ -9,9 +9,22 @@ div {
 
 .card {
   min-width: 150px;
+  height: 600px;
   width: 18em;
   margin:0px auto 6%;
+
 }
+
+.card:hover {
+  outline:5px solid black;
+}
+.card p, .card h5 {
+  color:black;
+}
+.card p:hover, .card h5:hover {
+ text-decoration-line: none;
+}
+
 
 #slogan {
   font-weight: bold;

@@ -4,6 +4,7 @@ import { IntroductionComponent } from './components/introduction/introduction.co
 import { Tumbling20sComponent } from './components/tumbling20s/tumbling20s.component';
 import { BlockchainComponent } from './components/blockchain/blockchain.component';
 import { AboutComponent } from './components/about/about.component';
+import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
 
 
 const APP_ROUTES: Routes = [
@@ -12,6 +13,7 @@ const APP_ROUTES: Routes = [
   { path: 'tumbling20s', component: Tumbling20sComponent },
   { path: 'blockchain', component: BlockchainComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'disclaimer', component: DisclaimerComponent },
   { path: '**', pathMatch: 'full', redirectTo: '/home' }
 ];
 

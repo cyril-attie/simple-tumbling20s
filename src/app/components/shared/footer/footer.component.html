@@ -3,22 +3,31 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 />
 <footer class="footer bg-dark text-center">
-  <div class="container">
-    <p style="margin-bottom:0px;">Share this website:</p>
-    <!-- Facebook share button-->
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.tumbling20s.com"><i class="fab fa-facebook"> Share</i></a>
-    <!-- Twitter share button -->
-   <a href="https://twitter.com/intent/tweet?text=Watch%20the%202020%20Crisis%20happening%20and%20Blockchain%20takeover%20https://www.tumbling20s.com%20@tumbling20s"><i class="fab fa-twitter"> Tweet</i></a>
-    <!-- Linkedin share button -->
-    <a href="https://www.linkedin.com/sharing/share-offsite/?url=tumbling20s.com" target="_blank"><i class="fab fa-linkedin-in"> LinkedIn</i></a>
-     <!-- Whatsapp card -->
-    <a href="whatsapp://send?text=https://www.tumbling20s.com" data-action="share/whatsapp/share"><i class="fab fa-whatsapp"> Whatsapp</i></a>
-    <!-- Pocket -->
-    <a href="https://getpocket.com/save?url=https://www.tumbling20s.com" title="Pocket" target="_blank"><i class="fab fa-get-pocket"> Pocket</i></a>
+  <div class="container bg-dark">
+    <p style="margin-bottom:0px;">Contact us:</p>
+
+    <!-- Facebook link button-->
+    <a href="https://www.facebook.com/tumbling20s/" target="_blank"><i class="fab fa-facebook"></i></a>
+    <!-- Twitter link button -->
+    <a href="https://twitter.com/tumbling20s" target="_blank"><i class="fab fa-twitter"></i></a>
+    <!-- Linkedin link button -->
+    <a href="https://www.linkedin.com/company/tumbling20s" target="_blank"><i class="fab fa-linkedin-in"></i></a>
     <!-- Telegram -->
-    <a href="tg://msg_url?url=https://www.tumbling20s.com"><i class="fab fa-telegram-plane"> Telegram</i></a>
-    <p style="margin-bottom:0px;">
-      &copy; 2019 Tumbling 20's, S.L. <br> Tumbling20s is not
-    </p>
+    <a href="https://t.me/tumbling20s" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+     <!-- email TODO EMAIL FORM -->
+    <a href="mailto:temporary_contact@tumbling20s.com" target="_blank"><i class="far fa-envelope"></i></a>
   </div>
+    <div id="under-footer">
+      <p style="margin-bottom:0px;color:rgba(255,255,255,.5);">
+        &copy; 2019 Tumbling 20's, S.L.
+      </p>
+      <p>
+        <a [routerLink]="['disclaimer']">Risk Disclaimer</a>
+      </p>
+      <p>
+          <a [routerLink]="['about']">About Us</a>
+        </p>
+        
+    </div>
+
 </footer>
