@@ -3,13 +3,14 @@
   #web-title {
     font-size: 4vw;
     font-size-adjust: none;
+    margin: 0px 4px 0px 4px;
   }
 }
 h1 {
   color: white;
   font-size: 2vw;
   font-weight: bolder;
-  margin: 0px 4px 0px 0px;
+  margin: 0px 4px 0px 40px;
   padding:0px;
 }
 
@@ -17,4 +18,14 @@ nav {
   position:sticky;
   top:0px;
   z-index: 1;
+}
+
+a.navbar-brand {
+  padding:0px;
+  margin:0px;
+}
+
+#logo {
+  width:62px;
+  height:62px;
 }

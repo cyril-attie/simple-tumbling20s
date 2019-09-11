@@ -9,6 +9,8 @@ div {
 
 .card {
   min-width: 150px;
+  width: 18em;
+  margin:0px auto 6%;
 }
 
 #slogan {
