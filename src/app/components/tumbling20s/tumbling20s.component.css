@@ -1,0 +1,64 @@
+.illustration {
+  width: 38.2%;
+  min-width: 150px;
+  margin: 10px 0px;
+  display: table-row;
+  vertical-align: middle;
+}
+
+
+figure {
+  display: flex;
+  flex-direction:column;
+  width: 46%;
+  min-width: 150px;
+  margin: 10px 0px;
+  vertical-align: middle;
+}
+figure figcaption {
+font-size:small;
+}
+
+figure>img {
+  margin: 10px 0px;
+  width:100%;
+}
+
+.float-r {
+  float: right;
+  margin-left: 2%;
+}
+
+.float-l {
+  float: left;
+  margin-right: 2%;
+}
+
+h1,
+h2,
+h5 {
+  font-weight: 500;
+}
+
+#read-place {
+  margin: 10px;
+}
+@media screen and (max-width: 776px) {
+  #read-place {
+    padding: 0px 9vw 0px 0px;
+  }
+
+}
+@media screen and (max-width: 576px) {
+  figure.float-r {
+    float: none;
+    margin-left: 5vw;
+    width:100%;
+  }
+  figure.float-l {
+    float: none;
+    margin-left: 5vw;
+    width:100%;
+  }
+
+}

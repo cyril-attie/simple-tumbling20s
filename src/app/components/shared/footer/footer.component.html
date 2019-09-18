@@ -1,33 +1,38 @@
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-/>
-<footer class="footer bg-dark text-center">
-  <div class="container bg-dark">
-    <p style="margin-bottom:0px;">Contact us:</p>
-
-    <!-- Facebook link button-->
-    <a href="https://www.facebook.com/tumbling20s/" target="_blank"><i class="fab fa-facebook"></i></a>
-    <!-- Twitter link button -->
-    <a href="https://twitter.com/tumbling20s" target="_blank"><i class="fab fa-twitter"></i></a>
-    <!-- Linkedin link button -->
-    <a href="https://www.linkedin.com/company/tumbling20s" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    <!-- Telegram -->
-    <a href="https://t.me/tumbling20s" target="_blank"><i class="fab fa-telegram-plane"></i></a>
-     <!-- email TODO EMAIL FORM -->
-    <a href="mailto:temporary_contact@tumbling20s.com" target="_blank"><i class="far fa-envelope"></i></a>
-  </div>
-    <div id="under-footer">
-      <p style="margin-bottom:0px;color:rgba(255,255,255,.5);">
-        &copy; 2019 Tumbling 20's, S.L.
-      </p>
-      <p>
-        <a [routerLink]="['disclaimer']">Risk Disclaimer</a>
-      </p>
-      <p>
-          <a [routerLink]="['about']">About Us</a>
-        </p>
-        
+<footer class="footer text-center">
+  <div id="contact" class="container">
+    <p>Contact us:</p>
+    <div class="row">
+      <!-- Facebook link button-->
+      <a href="https://www.facebook.com/tumbling20s/" target="_blank"
+        ><fa-icon id="facebook" [icon]="faFacebookF"></fa-icon
+      ></a>
+      <!-- Twitter link button -->
+      <a href="https://twitter.com/tumbling20s" target="_blank"
+        ><fa-icon id="twitter" [icon]="faTwitter"></fa-icon
+      ></a>
+      <!-- Linkedin link button -->
+      <a href="https://www.linkedin.com/company/tumbling20s" target="_blank"
+        ><fa-icon id="linkedin" [icon]="faLinkedinIn"></fa-icon
+      ></a>
+      <!-- Telegram -->
+      <a href="https://t.me/tumbling20s" target="_blank"
+        ><fa-icon id="telegram" [icon]="faTelegramPlane"></fa-icon
+      ></a>
+      <!-- email TODO EMAIL FORM -->
+      <a href="mailto:temporary_contact@tumbling20s.com" target="_blank"
+        ><fa-icon id="mailto" [icon]="faEnvelopeOpen"></fa-icon
+      ></a>
     </div>
-
+  </div>
+  <div id="under-footer">
+    <p>
+      &copy; 2019 Tumbling 20's, S.L.
+    </p>
+    <p>
+      <a [routerLink]="['disclaimer']">Risk Disclaimer</a>
+    </p>
+    <p>
+      <a [routerLink]="['about']">About</a>
+    </p>
+  </div>
 </footer>

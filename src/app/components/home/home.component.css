@@ -7,33 +7,64 @@ div {
   flex-flow: row wrap;
 }
 
-.card {
-  min-width: 150px;
-  height: 600px;
-  width: 18em;
-  margin:0px auto 6%;
+span#cards{
+  display:flex; 
+  /* margin-bottom:200px;  */
+  flex-flow:row wrap;
+}
 
+  .card {
+  min-width: 200px;
+  height: 500px;
+  width: 16em;
+  margin:0px auto 6%;
+  border:1px solid rgba(0,0,0,0.7)
 }
 
 .card:hover {
-  outline:5px solid black;
-}
-.card p, .card h5 {
-  color:black;
-}
-.card p:hover, .card h5:hover {
- text-decoration-line: none;
+  border:2px solid rgba(0,0,0,0.7);
+  box-shadow: 4px 3px 3px rgba(15, 68, 128,0.9);
 }
 
+.card:hover>a div.card-body {
+  padding-right: 19px!important;
+  padding-left: 19px!important;
+}
+
+.card a {
+  color:black;
+  text-decoration-line: none;
+}
+
+.card a h5 {
+  font-weight:500;}
 
 #slogan {
-  font-weight: bold;
+  font-weight: 550;
   text-align: center;
-  font-size: 4vw;
+  font-size: 3vw;
+  margin: 30px 15px;
+}
+p{
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (max-width:992px) {
   #slogan {
-    font-size: 3vw;
+    font-size: 4vw;
   }
+}
+
+@media screen and (max-width:576px) {
+  #slogan {
+    font-size: 5vw;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+ #slogan {
+   font-size:5.5vw;
+ }
 }

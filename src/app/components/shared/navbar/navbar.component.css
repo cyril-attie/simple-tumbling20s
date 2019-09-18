@@ -1,4 +1,37 @@
 /* On screens that are 992px or less, set the background color to blue */
+
+#web-title {
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin: 0px 4px 0px 40px;
+  padding: 0px;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color:rgba(15, 68, 128,1);
+}
+
+a.navbar-brand {
+  padding: 0px;
+  margin: 0px;
+}
+.nav-link {
+  font-weight:550;
+}
+
+#logo {
+  width: 62px;
+  height: 62px;
+}
+
+button#menu-button {
+  border-color: rgba(255, 255, 255, 0.3);
+  border-width: 3px;
+}
 @media screen and (max-width: 992px) {
   #web-title {
     font-size: 4vw;
@@ -6,26 +39,33 @@
     margin: 0px 4px 0px 4px;
   }
 }
-h1 {
-  color: white;
-  font-size: 2vw;
-  font-weight: bolder;
-  margin: 0px 4px 0px 40px;
-  padding:0px;
+
+@media screen and (max-width: 576px) {
+  #web-title {
+    font-size: 5vw;
+    font-size-adjust: none;
+    margin: 0px auto 0px;
+  }
+  button {
+    width: 80%;
+    margin: 10px auto 0px;
+  }
 }
 
-nav {
-  position:sticky;
-  top:0px;
-  z-index: 1;
-}
 
-a.navbar-brand {
-  padding:0px;
-  margin:0px;
-}
 
-#logo {
-  width:62px;
-  height:62px;
+@media screen and (max-width: 450px) {
+  #web-title {
+    font-size: 6.5vw;
+    font-size-adjust: none;
+    margin: 10px auto;
+  }
+
+  nav{
+    display:flex;
+    flex-direction:column;
+  }
+  a.navbar-brand {
+   display:none;
+  }
 }

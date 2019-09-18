@@ -1,0 +1,18 @@
+/* tooltip gets positioned relatively to the body element, problem when scrolled down*/
+/* div.tooltip {
+  position: absolute;
+  z-index: 9999;
+  padding: 6px;
+  background: #ffd;
+  opacity:1!important;
+  border: 1px #886 solid;
+  border-radius: 5px;
+} */
+
+
+
+
+body {
+	cursor: url('../../assets/img/cursor.ico'), default;
+}
+

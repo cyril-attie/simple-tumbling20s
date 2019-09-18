@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 // Rutas
 import { APP_ROUTING } from './app.routes';
@@ -21,6 +21,7 @@ import { BlockchainComponent } from './components/blockchain/blockchain.componen
 import { AboutComponent } from './components/about/about.component';
 import { RightSideColumnComponent } from './components/shared/right-side-column/right-side-column.component';
 import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
+import { TaleComponent } from './components/tale/tale.component';
 
 @NgModule({
   declarations: [
@@ -33,10 +34,12 @@ import { DisclaimerComponent } from './components/disclaimer/disclaimer.componen
     BlockchainComponent,
     AboutComponent,
     RightSideColumnComponent,
-    DisclaimerComponent
+    DisclaimerComponent,
+    TaleComponent
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule,
     AppRoutingModule,
     APP_ROUTING
   ],

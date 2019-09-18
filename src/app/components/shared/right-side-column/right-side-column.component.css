@@ -1,60 +1,77 @@
-.fab {
-  font: sans-serif, helvetica, Helvetica, Arial, sans-serif;
+fa-icon {
+  
   font-weight: bold;
-  vertical-align: bottom;
-  padding:0.6vw 0px 0px 0px;
-  font-size: 3vw;
-  height: 4vw;
-  width: 4vw;
+  padding:0.7vw 0px 0px 0px;
+  font-size: 4vw;
+  display:block;
+  width: 100%; 
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 a {
-  vertical-align: bottom;
-}
-.fab > p {
-  font: helvetica;
+  display:block;
+  width:100%;
 }
 
-.fab:hover {
+fa-icon:hover {
   opacity: 0.7;
 }
 
-.fa-linkedin-in {
+fa-icon#linkedin {
   background: #007bb5;
   color: white;
 }
 
-.fa-whatsapp {
+fa-icon#whatsapp {
   background: #00e676;
   color: white;
 }
 
-.fa-get-pocket {
+fa-icon#getpocket {
   background: #ef4056;
   color: white;
 }
-.fa-telegram-plane {
+fa-icon#telegram {
   background: #31a8df;
   color: white;
 }
 
-.fa-twitter {
+fa-icon#twitter {
   background: #1b95e0;
   color: white;
 }
 
-.fa-facebook {
+fa-icon#facebook {
   background: #4267b2;
   color: white;}
 
+  
+  @media screen and (max-width: 576px) {
+  fa-icon {   
+      padding:1vw 0px 0px 0px;
+      font-size: 8vw;
+      height: 10vw;
+      width: 10vw;    
+  }
+  }
+  
 @media screen and (max-width: 768px) {
-  .fab {   
-    padding:0.7vw 0px 0px 0px;
-    font-size: 4vw;
-    height: 5vw;
-    width: 5vw;    
+  fa-icon {   
+    padding:0vw 0px 0px 0px;
+    font-size: 6vw;
+    height: 8vw;
+    width: 8vw;    
 }
 }
+
+@media screen and (min-width: 768px) {
+  fa-icon {   
+    padding:0vw 0px 0px 0px;
+    font-size: 3vw;
+    height: 4vw;
+    width: 4vw;    
+}
+}
+
