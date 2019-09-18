@@ -1,19 +1,35 @@
 .illustration {
+ 
+  /* display: table-row; */
+ 
+}
+
+
+figure.illustration {
+  display: flex;
+  flex-direction:column;
   width: 38.2%;
   min-width: 150px;
   margin: 10px 0px;
-  display: table-row;
   vertical-align: middle;
+}
+figure figcaption {
+font-size:small;
+}
+
+figure>img {
+  margin-bottom: 2px;
+  width:100%;
 }
 
 .float-r {
   float: right;
-  margin-left: 5vw;
+  margin-left: 4%!important;
 }
 
 .float-l {
   float: left;
-  margin-right: 15px;
+  margin-right: 4%!important;
 }
 
 h1,
