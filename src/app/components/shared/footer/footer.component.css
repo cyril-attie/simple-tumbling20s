@@ -36,6 +36,11 @@ fa-icon#facebook {
   color: white;
 }
 
+fa-icon#reddit {
+  background: #ff4500;
+  color: white;
+}
+
 fa-icon#mailto {
   background: rgb(107, 102, 102);
   color: white;

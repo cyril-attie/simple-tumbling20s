@@ -1,10 +1,3 @@
-.illustration {
- 
-  /* display: table-row; */
- 
-}
-
-
 figure.illustration {
   display: flex;
   flex-direction:column;
@@ -22,12 +15,12 @@ figure>img {
   width:100%;
 }
 
-.float-r {
+.float-r.illustration {
   float: right;
   margin-left: 4%!important;
 }
 
-.float-l {
+.float-l.illustration {
   float: left;
   margin-right: 4%!important;
 }

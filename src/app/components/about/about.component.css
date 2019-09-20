@@ -1,0 +1,28 @@
+.card {
+  min-width: 200px;
+  width: 16em;
+  
+text-align:center;
+  border:none!important;
+}
+.card img {
+  border-radius:50%;
+}
+
+.card:hover>a div.card-body {
+  padding-right: 19px!important;
+  padding-left: 19px!important;
+}
+
+.card a {
+  color:black;
+  text-decoration-line: none;
+  
+}
+
+.card h5 {
+  font-weight:600;}
+
+  h1{
+    text-align:center;
+  }

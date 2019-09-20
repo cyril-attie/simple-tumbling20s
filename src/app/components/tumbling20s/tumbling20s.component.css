@@ -1,13 +1,23 @@
-.illustration {
+
+figure.illustration {
+  display: flex;
+  flex-direction:column;
   width: 38.2%;
   min-width: 150px;
   margin: 10px 0px;
-  display: table-row;
   vertical-align: middle;
 }
+.float-r.illustration {
+  float: right;
+  margin-left: 4%!important;
+}
 
+.float-l.illustration {
+  float: left;
+  margin-right: 4%!important;
+}
 
-figure {
+figure.graph {
   display: flex;
   flex-direction:column;
   width: 46%;
@@ -24,12 +34,12 @@ figure>img {
   width:100%;
 }
 
-.float-r {
+.float-r.graph {
   float: right;
   margin-left: 2%;
 }
 
-.float-l {
+.float-l.graph {
   float: left;
   margin-right: 2%;
 }

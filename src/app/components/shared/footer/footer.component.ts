@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faTwitter, faFacebookF, faLinkedinIn, faTelegramPlane} from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faFacebookF, faLinkedinIn, faTelegramPlane, faReddit} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeOpen } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
@@ -14,7 +14,7 @@ export class FooterComponent {
   faEnvelopeOpen = faEnvelopeOpen;
   faTelegramPlane = faTelegramPlane;
   faFacebookF = faFacebookF;
-  
+  faReddit = faReddit;
   constructor() {
     this.anio = new Date().getFullYear() + 1;
   }
